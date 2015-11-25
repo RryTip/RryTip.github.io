@@ -30,6 +30,21 @@ body {
   font-style: italic;
 }
 
+footer {
+  margin-top: 20px;
+  padding: 30px 0;
+  background: #e7e7e7;
+}
+
+footer h2 {
+  margin-top: 0;
+}
+
+footer .thankSite {
+  margin: 0 6px 0;
+  color: #38d1a0;
+}
+
 .content .fa-heart {
   color: pink;
 }
@@ -58,15 +73,4 @@ body {
 #videoList a {
   text-decoration: none;
   font-weight: 500;
-}
-
-footer {
-  margin-top: 20px;
-  padding-bottom: 30px;
-  background: #e7e7e7;
-}
-
-footer .thankSite {
-  margin: 0 6px 0;
-  color: #38d1a0;
 }
