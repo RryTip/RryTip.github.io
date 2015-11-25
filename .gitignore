@@ -1,0 +1,13 @@
+/.idea
+/vendor
+/node_modules
+/app
+/include
+/static
+/videos
+composer.json
+composer.lock
+package.json
+gulpfile.js
+config.yaml
+readme.md

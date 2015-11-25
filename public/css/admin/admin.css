@@ -1,0 +1,53 @@
+/*custom style*/
+#upload-success {
+    display: none;
+    color: #5cb85c;
+}
+
+#upload-error {
+    display: none;
+    color: darkred;
+}
+
+#uploading {
+    opacity: 0;
+}
+
+#message-board,
+#error-board,
+#addVideoForm,
+#addSerieForm {
+    display: none;
+}
+
+.form-body {
+    -webkit-animation: insert 700ms;
+    -moz-animation: insert 700ms;
+    -o-animation: insert 700ms;
+    animation: insert 700ms;
+}
+
+.error-message {
+    font-style: italic;
+    color: red;
+}
+
+@-webkit-keyframes insert {
+    0% {opacity: 0; -webkit-transform: translateY(-20px);}
+    100% {opacity: 1; -webkit-transform: translateY(0);}
+}
+
+@-moz-keyframes insert {
+    0% {opacity: 0; -moz-transform: translateY(-20px);}
+    100% {opacity: 1; -moz-transform: translateY(0);}
+}
+
+@-o-keyframes insert {
+    0% {opacity: 0; -o-transform: translateY(-20px);}
+    100% {opacity: 1; -o-transform: translateY(0);}
+}
+
+@keyframes insert {
+    0% {opacity: 0; transform: translateY(-20px);}
+    100% {opacity: 1; transform: translateY(0);}
+}

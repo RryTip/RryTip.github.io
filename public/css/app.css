@@ -1,0 +1,72 @@
+body {
+  padding-top: 70px;
+}
+
+#siteNav li {
+  transition: all .2s;
+}
+
+#siteNav li:hover {
+  font-weight: bold;
+}
+
+.content {
+  margin-bottom: 30px;
+}
+
+.content:after {
+  margin-top: 26px;
+  content: ' ';
+  display: block;
+  border: 1px solid #ccc;
+}
+
+.content blockquote {
+  margin-top: 26px;
+}
+
+.content h3 small {
+  font-size: .6em;
+  font-style: italic;
+}
+
+.content .fa-heart {
+  color: pink;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#videoList .panel-heading {
+  font-size: 1.6em;
+}
+
+#videoList td {
+  padding: 12px;
+}
+
+#videoList a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  background: #e7e7e7;
+}
+
+footer .thankSite {
+  margin: 0 6px 0;
+  color: #38d1a0;
+}
