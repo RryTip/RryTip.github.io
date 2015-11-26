@@ -5,6 +5,7 @@
 /include
 /static
 /videos
+/backups
 composer.json
 composer.lock
 package.json
