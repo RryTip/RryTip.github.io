@@ -195,7 +195,7 @@
     font-size: 1.95em;
     font-weight: normal;
     margin: 0.25em 0 0.5em;
-    color: #685884;
+    color: #7EA1BF;
 }
 .content p {
     font-size: 1.25em;
@@ -302,7 +302,7 @@
     transition-duration: 1.7s;
 }
 .content__item--current .content__item-inner a {
-    color: #FFAFA1;
+    color: #A0E8FF;
 }
 /* Media Queries */
 @media screen and (max-width: 50em) {
