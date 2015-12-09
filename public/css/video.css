@@ -40,7 +40,7 @@
     border: 1px solid #6BA0B2;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 30px rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2);
 }
 #videoList .panel-heading {
     font-size: 1.6em;
