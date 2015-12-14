@@ -45,7 +45,8 @@
 #videoList .panel-heading {
     font-size: 1.6em;
     padding: 16px 0;
-    background: #18171c;
+    color: #fff;
+    background: #F2EAE7;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -55,17 +56,23 @@
     width: 100%;
 }
 #videoList table tr {
-    -webkit-transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
-    transition: all .3s ease-in;
+    -webkit-transition: all .12s ease-in;
+    -moz-transition: all .12s ease-in;
+    -o-transition: all .12s ease-in;
+    transition: all .12s ease-in;
     border-radius: 3px;
 }
+#videoList table tr a {
+    color: #595859;
+}
+#videoList table tr:nth-child(2n + 1) {
+    background: #FFFFFF;
+}
 #videoList table tr:nth-child(2n) {
-    background: #18171c;
+    background: #BFBFBF;
 }
 #videoList table tr:hover {
-    background: #16151c;
+    background: #F1B6AE;
 }
 #videoList table tr:hover a{
     color: white;

@@ -1,239 +1,82 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>RryLee's resume | Eaiser Videos</title>
-    <link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
-    <link rel="stylesheet" href="public/css/about/style.css">
-    <link rel="stylesheet" href="public/css/app.css">
+<title>RryTip Videos | RryTip</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cdn.bootcss.com/normalize/3.0.3/normalize.min.css">
+<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="public/css/about.css">
 </head>
 <body>
-    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".home-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="http://rrytip.github.io/index.html">Eaiser Videos</a>
-            </div>
+    <div class="container">
+        <!-- Codrops top bar -->
+        <div class="codrops-top">
+            <a href="http://rrytip.github.io">
+                <strong>&laquo; Back Home </strong>
+            </a>
+            <div class="clr"></div>
+        </div><!--/ Codrops top bar -->
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse home-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="http://rrytip.github.io/index.html">Home</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
+        <div class="st-container">
+            <input type="radio" name="radio-set" checked="checked" id="st-control-1"/>
+            <a href="#st-panel-1">简介</a>
+            <input type="radio" name="radio-set" id="st-control-2"/>
+            <a href="#st-panel-2">学历</a>
+            <input type="radio" name="radio-set" id="st-control-3"/>
+            <a href="#st-panel-3">技能</a>
+            <input type="radio" name="radio-set" id="st-control-4"/>
+            <a href="#st-panel-4">爱好</a>
+            <input type="radio" name="radio-set" id="st-control-5"/>
+            <a href="#st-panel-5">未来</a>
 
-                    <li><a href="http://rrylee.github.io" target="_black">Blog</a></li>
+            <div class="st-scroll">
 
-                    <li class="active"><a href="http://rrytip.github.io/about.html">About</a></li>
+                <section class="st-panel" id="st-panel-1">
+                    <div class="st-deco" data-icon="H"></div>
+                    <h2>RryLee <img src="public/img/profile.png" width="50" style="border-radius: 50%;"></h2>
+                    <p>李锐，目前比较喜欢php和javascript</p>
+                </section>
 
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- container end -->
-    </nav> <!-- nav -->
-    <div id="main">
-        <!-- top-bar -->
-        <div id="top-bar">
-            <div id="top-bar-content">
-                <div id="cn-name">李锐</div>
-                <div id="name">
-                    <h1>RryLee</h1>
-                    <span>PROGRAMER</span>
-                </div>
-                <div id="contact">
-                    <p><span class="left">Email</span><span>rrylee1994@gmail.com</span></p><div class="clearfix"></div><p></p>
-                    <p><span class="left">Page</span><span><a href="http://rrytip.github.io">Rasier Video</a></span></p><div class="clearfix"></div><p></p>
-                    <p><span class="left">QQ</span><span>215672398</span></p><div class="clearfix"></div><p></p>
-                    <p><span class="left">School</span><span>Hubei University of Technology</span></p><div class="clearfix"></div><p></p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div> <!-- top-bar -->
+                <section class="st-panel st-color" id="st-panel-2">
+                    <div class="st-deco" data-icon="2"></div>
+                    <h2>Education</h2>
+                    <p>就读于湖北工业大学，目前大四</p>
+                </section>
 
-        <div id="container">
-            <div id="header">
-                <div id="about-me" class="circles"></div>
-                <div id="work" class="circles"><span>Work</span>work experience</div>
-                <div id="education" class="circles"><span>Education</span>formal education</div>
-                <div id="skills" class="circles"><span>My skills</span>practical knowledge</div>
-            </div> <!-- header -->
+                <section class="st-panel" id="st-panel-3">
+                    <div class="st-deco" data-icon="B"></div>
+                    <h2>Technique</h2>
+                    <p>
+                        PHP，擅长 <a href="https://github.com/laravel/laravel">Laravel</a> 和 <a href="https://github.com/slimphp/Slim">Slim</a><br />
+                        Javascript，<a href="https://github.com/vuejs/vue">Vue</a> 和 <a href="https://github.com/angular/angular.js">Angular</a><br />
+                        Css & Design Basic
+                    </p>
+                </section>
 
-            <div id="slider-container">
+                <section class="st-panel st-color" id="st-panel-4">
+                    <div class="st-deco" data-icon="x"></div>
+                    <h2>Interest</h2>
+                    <p>
+                        爱分享，爱开源，常逛 <a href="https://phphub.org">phphub</a><br />
+                        崇拜 <a href="laracasts.com">Jeffery Way</a> 和 <a href="https://github.com/overtrue">Overtrue</a>同学
+                    </p>
+                </section>
 
-                <div id="s-about-me" class="slider default">
-                    <hr class="wrw">
-                    <div class="section">
-                        <div class="title">
-                            <div class="title-bg"><h2>ABOUT <span>ME</span></h2></div>
-                            <span class="sub-title">爱Web，爱PHP，爱Laravel</span>
-                        </div>
+                <section class="st-panel" id="st-panel-5">
+                    <div class="st-deco" data-icon="Ç"></div>
+                    <h2>Feature</h2>
+                    <p>
+                        比较喜欢Ruby，有机会一定会使用<br />
+                        目前 JetBrains 的 <a href="https://github.com/JetBrains/kotlin">kotlin</a> 还未正式发布，比较喜欢 JetBrains 的东西，当然，<a href="https://github.com/JetBrains/kotlin">kotlin</a> 也不例外
+                    </p>
+                </section>
 
-                        <div class="content">
+            </div><!-- // st-scroll -->
+        </div><!-- // st-container -->
+    </div>
 
-                            <div class="one-third first">
-                                <blockquote>PHP 是世界上最好的语言.</blockquote>
-                                <span class="quoter">Unknow</span>
-                            </div>
-                            <div class="one-third">
-                                <blockquote>人生苦短，我用Laravel.</blockquote>
-                                <span class="quoter">RryLee</span>
-                            </div>
-                            <div class="one-third">
-                                <blockquote>$string = 'zero';$zero = 0;echo $string == $zero ? 'why?' : 'what?';
-                                </blockquote>
-                                <span class="quoter">RryLee</span>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="s-work" class="slider" style="left: -1000px;">
-                    <hr class="wrw">
-                    <div class="section">
-                        <div class="title">
-                            <h2>MY <span>WORK</span></h2>
-                            <span class="sub-title">目前来说基本没有正式工作经验</span>
-                        </div>
-                        <div class="content">
-                            <div class="timeframe">
-                                <div class="period">2016 - 201\d{1}</div>
-                                <div class="achievements">
-                                    <h4>Unknow Company</h4>
-                                    <h5>PHP developer</h5>
-                                    <p>这几年会在哪混饭吃，这是一个问题，呵呵.</p>
-                                </div>
-                            </div>
-                            <hr class="wrw-thin">
-                        </div>
-                    </div>
-                </div>
-                <div id="s-education" class="slider" style="left: -1000px;">
-                    <hr class="wrw">
-                    <div class="section">
-                        <div class="title">
-                            <h2>MY <span>EDUCATION</span></h2>
-                            <span class="sub-title">My formal education</span>
-                        </div>
-                        <div class="content">
-                            <div class="timeframe">
-                                <div class="period">2012 - now</div>
-                                <div class="achievements">
-                                    <h4>Computer Science and Technology</h4>
-                                    <h5>Computer </h5>
-                                    <p>基本各种编程语言都有学到，算法，数据结构都有基础，网络，系统也有涉及，当然，不务正业，还是使用php比较好.</p>
-                                </div>
-                            </div>
-                            <hr class="wrw-thin">
-                        </div>
-                    </div>
-                </div>
-                <div id="s-skills" class="slider" style="left: -1000px;">
-                    <hr class="wrw">
-                    <div class="section">
-                        <div class="title">
-                            <h2>MY <span>SKILLS</span></h2>
-                            <span class="sub-title">My practical skills and knowledge</span>
-                        </div>
-                        <div class="content">
-                            <p>一些比较常用的技能</p>
-                            <div class="skill-category"><h4 class="skills">Programer</h4></div>
-                            <div class="skill-container">
-                                <div class="skill-name">PHP</div>
-                                <div class="skill-strenght">
-                                    <div class="skill eight"></div>
-                                </div>
-                                <div class="skill-score">
-                                    <b>8</b> out of 10
-                                </div>
-
-                                <div class="clearfix"></div>
-
-                                <div class="skill-name">Mysql</div>
-                                <div class="skill-strenght">
-                                    <div class="skill seven"></div>
-                                </div>
-                                <div class="skill-score">
-                                    <b>7</b> out of 10
-                                </div>
-
-                                <div class="clearfix"></div>
-
-                                <div class="skill-name">Javasript</div>
-                                <div class="skill-strenght">
-                                    <div class="skill six"></div>
-                                </div>
-                                <div class="skill-score"><b>6</b> out of 10</div>
-
-                                <div class="clearfix"></div>
-
-                                <div class="skill-name">HTML</div>
-                                <div class="skill-strenght">
-                                    <div class="skill seven"></div>
-                                </div>
-                                <div class="skill-score"><b>7</b> out of 10</div>
-
-                                <div class="clearfix"></div>
-
-                                <div class="skill-name">CSS</div>
-                                <div class="skill-strenght">
-                                    <div class="skill seven"></div>
-                                </div>
-                                <div class="skill-score"><b>7</b> out of 10</div>
-                                <div class="clearfix"></div>
-                            </div>
-                            <hr class="wrw">
-                            <div class="skill-category"><h4 class="skills">Tools</h4></div>
-                            <div class="skill-container">
-                                <div class="skill-name">Gulp</div>
-                                <div class="skill-strenght">
-                                    <div class="skill eight"></div>
-                                </div>
-                                <div class="skill-score"><b>8</b> out of 10</div>
-
-                                <div class="clearfix"></div>
-
-                                <div class="skill-name">Git</div>
-                                <div class="skill-strenght">
-                                    <div class="skill nine"></div>
-                                </div>
-                                <div class="skill-score"><b>9</b> out of 10</div>
-                                <div class="clearfix"></div>
-                            </div>
-                            <hr class="wrw">
-                            <div class="skill-category"><h4 class="skills">Designer</h4></div>
-                            <div class="skill-container">
-                                <div class="skill-name">Adobe Illustrator</div>
-                                <div class="skill-strenght">
-                                    <div class="skill six"></div>
-                                </div>
-                                <div class="skill-score"><b>6</b> out of 10</div>
-
-                                <div class="clearfix"></div>
-
-                                <div class="skill-name">Design skills</div>
-                                <div class="skill-strenght">
-                                    <div class="skill six"></div>
-                                </div>
-                                <div class="skill-score"><b>6</b> out of 10</div>
-                                <div class="clearfix"></div>
-                            </div>
-                            <hr class="wrw">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- container -->
-    </div> <!-- main -->
-
-    <script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="public/js/about.js"></script>
+    <script src="http://localhost:8000/public/js/modernizr.js"></script>
 </body>
 </html>
