@@ -546,7 +546,7 @@ a, button {
 .cbp-vm-count {
     color: #c0c0c0;
 }
-.cbp-vm-add {
+.cbp-vm-watch {
     color: #fff;
     background: #47a3da;
     padding: 10px 20px;
@@ -558,12 +558,21 @@ a, button {
     -o-transition: background 0.2s;
     transition: background 0.2s;
 }
-.cbp-vm-add:hover {
-    color: #fff;
+.cbp-vm-watch:hover {
     background: #02639d;
 }
 
-.cbp-vm-add:before {
+.cbp-vm-updated {
+    background: #d9534f;
+    border-color: #d43f3a;
+}
+
+.cbp-vm-updated:hover {
+    color: #fff;
+    background: #c44240;
+}
+
+.cbp-vm-watch:before {
     margin-right: 5px;
 }
 /* Common icon styles */
@@ -620,7 +629,7 @@ a, button {
 .cbp-vm-view-list .cbp-vm-title,
 .cbp-vm-view-list .cbp-vm-second-title,
 .cbp-vm-view-list .cbp-vm-count,
-.cbp-vm-view-list .cbp-vm-add {
+.cbp-vm-view-list .cbp-vm-watch {
     display: inline-block;
     vertical-align: middle;
 }
@@ -648,7 +657,7 @@ a, button {
     white-space: normal;
 }
 
-.cbp-vm-view-list .cbp-vm-add {
+.cbp-vm-view-list .cbp-vm-watch {
     margin: 0;
 }
 
@@ -679,7 +688,7 @@ a, button {
         margin: 10px 0;
     }
 
-    .cbp-vm-view-list .cbp-vm-add  {
+    .cbp-vm-view-list .cbp-vm-watch  {
         margin: 10px;
     }
 }
