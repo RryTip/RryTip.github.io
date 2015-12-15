@@ -28,10 +28,10 @@ body:before {
 }
 
 a {
-    color: #a5b2b9;
+    color: #337ab7;
     text-decoration: none;
 }
 
 a:hover {
-    color: #000;
+    color: #296699;
 }
